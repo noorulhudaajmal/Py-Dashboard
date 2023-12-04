@@ -359,7 +359,6 @@ def average_list_price_card(df):
         y=monthly_sales["List Price [CAD]"],
         mode="lines",
         fill='tozeroy',
-        fillcolor="#cbeef3",
         name="Avg. List Price",
     ))
 
@@ -387,7 +386,6 @@ def total_prod_qty_card(df):
         y=monthly_sales["QTY [Units]"],
         mode="lines",
         fill='tozeroy',
-        fillcolor="#cbeef3",
         name="Qty Sold",
     ))
 
@@ -415,7 +413,6 @@ def total_prod_rev_card(df):
         y=monthly_sales["Revenue"],
         mode="lines",
         fill='tozeroy',
-        fillcolor="#cbeef3",
         name="Total Revenue",
     ))
 
@@ -443,7 +440,6 @@ def total_prod_GM_card(df):
         y=monthly_sales["Total GM [CAD]"],
         mode="lines",
         fill='tozeroy',
-        fillcolor="#cbeef3",
         name="Total Gross Margin",
     ))
 
